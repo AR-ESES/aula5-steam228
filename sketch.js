@@ -1,5 +1,3 @@
-
-
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	background(0);
@@ -9,13 +7,12 @@ function setup() {
 function draw() {
 
 	background(0);
-	if(mouseY >= height/2) {
+	if (mouseY >= height / 2) {
 		noFill();
-	}
-	else{
+	} else {
 		fill(230);
 	}
-	
+
 	stroke(230);
 	strokeWeight(2);
 	circle(width / 2, height / 2, height / 4);
